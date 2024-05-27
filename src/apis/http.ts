@@ -11,6 +11,8 @@ class AxiosCustom {
 
       constructor() {
             this.instance = axios.create({
+                  withCredentials: true,
+
                   baseURL: REACT_BACK_END_URL,
                   timeout: 1000 * 70,
                   headers: {
