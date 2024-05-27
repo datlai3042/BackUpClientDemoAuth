@@ -12,10 +12,10 @@ const App = () => {
             <>
                   <Routes>
                         <Route path='/' element={<HomePage />}>
-                              <Route path='/dashboard' element={<DashboardSection />} />
-                              <Route path='/account' element={<AccountSection />} />
-                              <Route path='/login' element={<LoginPage />} />
-                              <Route path='/register' element={<RegisterPage />} />
+                              <Route path='dashboard' element={<DashboardSection />} />
+                              <Route path='account' element={<AccountSection />} />
+                              <Route path='login' element={<LoginPage />} />
+                              <Route path='register' element={<RegisterPage />} />
                         </Route>
 
                         <Route path='*' element={<NotFoundPage />} />
